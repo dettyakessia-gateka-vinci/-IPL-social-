@@ -1,6 +1,6 @@
 export class Main {
 
 	isvalidatePassword(password){
-        return true;
+        return password.length >= 8;
     }
 }
