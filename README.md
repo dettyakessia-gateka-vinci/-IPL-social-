@@ -1,6 +1,6 @@
 Nom et Prénom:Gateka Detty-Akessia
 Email vinci:dettyakessia.gateka@student.vinci.be
-URL:https://github.com/dettyakessia-gateka-vinci/-IPL-social
+URL:https://github.com/dettyakessia-gateka-vinci/IPL-social
 
 
 ## Description
