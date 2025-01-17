@@ -17,4 +17,14 @@ it('should return true when M@234567 is given ', () => {
   expect(result).toBe(true); 
 });
 
+it('should return true when M@234569 is given ', () => {
+
+  const result = main.isvalidatePassword('M@234569');
+
+  expect(result).toBe(true); 
+
+}
+);
 });
+
+
