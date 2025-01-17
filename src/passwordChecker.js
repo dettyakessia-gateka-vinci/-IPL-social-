@@ -1,6 +1,8 @@
 export class Main {
 
-	isvalidatePassword(password){
-        return password.length >= 8;
+    isvalidatePassword(password) {
+        const hasMinimumLength = password.length >= 8;
+        const hasSpecialCharacter = /[!@#$%^&*(),.?":{}|<>]/.test(password);
+        return hasMinimumLength && hasSpecialCharacter;
     }
 }
